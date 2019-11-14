@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.content{
+	position: relative;
+	top: 15px;
+	left: 20px;
+	width: 250px;
+	height: 180px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+}
+.redBlock{
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	width: 80px;
+	height: 80px;
+	background-color:red;
+	z-index: 2;
+}
+.blueBlock{
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	width: 80px;
+	height: 80px;
+	background-color:blue;
+	z-index: 1;
+}
+
+
+
+
